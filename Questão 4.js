@@ -3,4 +3,8 @@
 
 let temperatura = 30;
 
-if(temperatura)
+if(temperatura>20){
+    console.log("Está calor!");
+}else{
+    console.log("Está fresco!");
+}
